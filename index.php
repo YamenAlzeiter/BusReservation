@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+        <div><h1>Bus ticket booking</h1></div> 
+  
+        <div> 
+            <a href="#">Home</a> 
+            <a href="#">Reservation</a>
+            <a href="#">Ticket</a>
+    </div>
+    </header>
+    <div class="body">
+
+       <button>Book Now</button>
+
+    </div>
 </body>
 </html>

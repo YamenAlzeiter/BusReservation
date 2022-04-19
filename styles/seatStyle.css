@@ -1,0 +1,111 @@
+html{
+ margin: 0;
+ padding: 0;   
+}
+body{
+    font-family: 'Poppins';
+}
+
+h1{
+    font-weight: 800;
+}
+ul li{
+    list-style: none;
+    font-size: 200;
+}
+ul li#ava::before{
+    content: "\2022";
+    color: #7660cc;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+ul li#rese::before{
+    content: "\2022";
+    color: #d1ceed;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+ul li#your::before{
+    content: "\2022";
+    color: #fa9555;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.seatview{
+    padding-top: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+.column{
+    height: 60px;
+    width: 70px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border: 1px solid black; */
+    cursor: pointer;
+    color: #fff;
+    line-height: 3.5;
+}
+.column:nth-child(2){
+    margin-right: 70px;
+}
+.column:hover{
+    transform: scale(1.1);
+}
+.available{
+    background-color:#7660cc ;
+    border-bottom: 5px solid #fa9555;
+}
+
+.btn{
+    margin-top: 40px;
+}
+.btn-submit{
+    padding: 10px 90px;
+    background: #fa9555;
+    color: #fff;
+    font-weight: 400;
+    
+}
+input{
+    border: none;
+    /* border-radius: 5%; */
+}
+input:hover{
+    transform: scale(1.1);
+}
+input.checkbox-in{
+    border-radius: 50%;
+
+}
+
+/* ************************************************************** */
+
+
+#available{
+    background-color: #7660cc;
+}
+#selected{
+    background-color: #fa9555;
+}
+#unavailable{
+    background-color: #d1ceed;
+}

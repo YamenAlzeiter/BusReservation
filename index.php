@@ -13,7 +13,7 @@
   
         <div> 
             <a href="#">Home</a> 
-            <a href="#">Reservation</a>
+            <a href="seatPage.php">Reservation</a>
             <a href="#">Ticket</a>
     </div>
     </header>

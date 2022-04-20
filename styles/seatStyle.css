@@ -100,12 +100,14 @@ input.checkbox-in{
 /* ************************************************************** */
 
 
-#available{
+.available{
     background-color: #7660cc;
 }
-#selected{
-    background-color: #fa9555;
+
+.selected{
+background-color: #fa9555 ; 
 }
-#unavailable{
+
+.unavailable{
     background-color: #d1ceed;
 }
